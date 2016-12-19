@@ -1,6 +1,7 @@
 # Email Delivery Engine in Elixir
 
 This project provides an [Elixir](http://elixir-lang.org) based background processing engine for email delivery.
+It uses [Exq](https://github.com/akira/exq) job processing library, [Quantum](https://github.com/c-rack/quantum-elixir) cron-like job scheduler, [Timex](https://github.com/bitwalker/timex) date/time library, [Mailman](https://github.com/kamilc/mailman) mailer, [UUID](https://github.com/zyro/elixir-uuid) generator, [Mongodb](https://github.com/ericmj/mongodb) driver and [HTTPotion](https://github.com/myfreeweb/httpotion) HTTP client.
 
 ## Requirements
 
